@@ -1,28 +1,24 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import {HashRouter, Route} from 'react-router-dom';
 import Home from './components/Home';
-import Scanner from './components/Scanner';
 import BusStop from './components/BusStop';
+import Scanner from './components/Scanner';
+
 
 
 export default function App() {
   return (
-    <Router>
-      <section className="mainPage">
-      <Switch>
+
+    <div>
+        <HashRouter>
+          <React.Fragment>
+            <Route path="/" component={Home}/>
+            <Route path="/BusStop" component={BusStop}/>
+            <Route path="/Scanner" component={Scanner}/>
           
-          <Route path="/Scanner">
-            <Scanner/>
-          </Route>
-          <Route path="/">
-            <Home/>
-          </Route>
-          <Route path="/BusStop">
-            <BusStop/>
-          </Route>
-        </Switch>
-      </section>
-    </Router>
+          </React.Fragment>
+        </HashRouter>
+    </div>
   );
 }
