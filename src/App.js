@@ -1,30 +1,25 @@
 import React from 'react';
 import './App.css';
-import BusStop from './components/BusStop.jsx';
-import Scanner from './components/Scanner.jsx';
-import Home from './components/Home.jsx';
+import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
+import Home from './components/Home';
+import Scanner from './components/Scanner';
+import BusStop from './components/BusStop';
 
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
       <section className="mainPage">
       <Switch>
-          <Route path="/busStop">
-            <BusStop/>
-          </Route>
-          <Route path="/scanner">
+          
+          <Route path="/Scanner">
             <Scanner/>
           </Route>
           <Route path="/">
             <Home/>
+          </Route>
+          <Route path="/BusStop">
+            <BusStop/>
           </Route>
         </Switch>
       </section>

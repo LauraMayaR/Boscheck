@@ -1,11 +1,11 @@
-import React from 'react';
-import Qr from './Qr.jsx';
+import {React} from 'react';
+import '../App.css';
 
-export default function Scanner(){
+function Scanner () {
     return(
-        <div>
-             <Qr/>
-        </div>
-       
-    );
+        <img src="" alt=""/>   
+    )
+    
 }
+export default Scanner;
+
