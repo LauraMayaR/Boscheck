@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import BusStop from './components/BusStop.jsx';
+import Scanner from './components/Scanner.jsx';
+import Home from './components/Home.jsx';
+
+
 import {
   BrowserRouter as Router,
   Switch,
