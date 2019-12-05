@@ -1,9 +1,26 @@
 import React from 'react';
-import '../App.css';
+import {Link} from "react-router-dom";
 
-function Home () {
-    return(
-        <img src="" alt=""/>   
-    )
+
+
+
+
+
+
+
+
+export default function Home() {
+	return (
+    <div>
+        <header >
+            <h1>Holaaaa</h1>
+        </header>
+			<section>
+				<nav>
+					<Link to="/BusStop">Siguiente paso para registrar</Link>
+					
+				</nav>
+			</section>
+    </div>
+    );
     }
-export default Home;
