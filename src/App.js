@@ -9,6 +9,7 @@ import Scanner from './components/Scanner';
 
 export default function App() {
   return (
+
     <div>
         <HashRouter>
           <React.Fragment>
@@ -19,8 +20,5 @@ export default function App() {
           </React.Fragment>
         </HashRouter>
     </div>
-
-
-    
   );
 }

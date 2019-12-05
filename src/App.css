@@ -1,11 +1,64 @@
-
-.App {
- 
+body {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  
 }
 
 
-body {
-  background: linear-gradient(180deg, rgba(6,74,108,1) 0%, rgba(179,184,195,1) 100%);
-  display: flex;
+.boschLogo{
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
+}
+.Rainbow{
+  margin-left: 15%;
+}
+
+.botonInicio{
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 30px;
+  width: 15%;
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+  margin-left: 15%;
+
+
+
+.bus{
+  text-align: center;
+  width: 100%; 
+ 
+}
+.bus h2{
+  margin-left: 50%;
+}
+.gif{
+  width: 200%;
+  
+}
+.mainPage{
+  position: absolute;
+  width: 100vh;
   height: 100vh;
+  background-size: cover;
+}
+.backhome, .endroad{
+  margin: 20px;
+  border-radius: 10px; 
+
+}
+.backhome{
+  margin-left: 50%;
+}
+.icon{
+  
+  width: 40px;
+}
+.endroad{
+  font-size: 140%;
 }
