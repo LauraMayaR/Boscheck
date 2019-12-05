@@ -1,4 +1,3 @@
-
 body {
   background-color: white;
   display: flex;
@@ -6,6 +5,29 @@ body {
   width: 100vh;
   
 }
+
+
+.boschLogo{
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
+}
+.Rainbow{
+  margin-left: 15%;
+}
+
+.botonInicio{
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 30px;
+  width: 15%;
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+  margin-left: 15%;
+
+
 
 .bus{
   text-align: center;

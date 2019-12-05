@@ -29,7 +29,6 @@ class Qr extends Component {
 			}
 			console.log (isMember);
 
-			
     }
   }
   handleError = err => {
@@ -37,8 +36,9 @@ class Qr extends Component {
   }
   render() {
     return (
-      <div
-			>
+
+      <div>
+
         <QrReader
           delay={300}
           onError={this.handleError}
@@ -49,9 +49,7 @@ class Qr extends Component {
 				<p>
 					{this.state.message}
 				</p>
-				<div className="backHome">
-				<Link to="/">INICIO</Link>
-				</div>
+
 				{this.state.result ? <Redirect to="/success"/>:""}
       </div>
     )
