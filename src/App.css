@@ -1,11 +1,33 @@
 
+
 .App {
  
 }
 
 
 body {
-  background: linear-gradient(180deg, rgba(6,74,108,1) 0%, rgba(179,184,195,1) 100%);
+  background: white;
   display: flex;
   height: 100vh;
+}
+
+.boschLogo{
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
+}
+.Rainbow{
+  margin-left: 15%;
+}
+
+.botonInicio{
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 30px;
+  width: 15%;
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+  margin-left: 15%;
 }
