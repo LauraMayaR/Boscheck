@@ -2,27 +2,27 @@
 body {
   background-color: white;
   display: flex;
-  height: 100vh;
-  width: 100vh;
-  
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .bus{
   text-align: center;
-  width: 100%; 
+  position: absolute;
+  left: 0;
+  right: 0;
  
 }
-.bus h2{
-  margin-left: 50%;
-}
+
 .gif{
-  width: 200%;
+  width: 75%;
   
 }
 .mainPage{
   position: absolute;
-  width: 100vh;
-  height: 100vh;
+  left: 0;
+  right: 0;
   background-size: cover;
 }
 .backhome, .endroad{
@@ -31,7 +31,10 @@ body {
 
 }
 .backhome{
-  margin-left: 50%;
+  margin-right: 20%;
+}
+.endroad{
+  margin-left: 20%;
 }
 .icon{
   
