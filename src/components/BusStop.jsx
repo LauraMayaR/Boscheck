@@ -18,6 +18,11 @@ class BusStop extends Component{
                     <button className="endroad">End road</button>
                     </Link>
                 </div>
+                 <section>
+					<Link to="/scanner">Scanea tu codigo</Link>
+		
+			</section>
+  
                            
             </div>
 
@@ -27,3 +32,4 @@ class BusStop extends Component{
 };
 
 export default BusStop;
+
