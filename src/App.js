@@ -11,16 +11,16 @@ export default function App() {
     <Router>
       <section className="mainPage">
       <Switch>
-          
+      <Route path="/BusStop">
+            <BusStop/>
+          </Route>
           <Route path="/Scanner">
             <Scanner/>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home/>
           </Route>
-          <Route path="/BusStop">
-            <BusStop/>
-          </Route>
+          
         </Switch>
       </section>
     </Router>

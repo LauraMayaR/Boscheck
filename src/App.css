@@ -1,15 +1,11 @@
-
-
-.App {
- 
-}
-
-
 body {
-  background: white;
+  background-color: white;
   display: flex;
   height: 100vh;
+  width: 100vh;
+  
 }
+
 
 .boschLogo{
   width: 50%;
@@ -30,4 +26,39 @@ body {
   font-family: 'Alatsi', sans-serif;
   text-align: center;
   margin-left: 15%;
+
+
+
+.bus{
+  text-align: center;
+  width: 100%; 
+ 
+}
+.bus h2{
+  margin-left: 50%;
+}
+.gif{
+  width: 200%;
+  
+}
+.mainPage{
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+}
+.backhome, .endroad{
+  margin: 20px;
+  border-radius: 10px; 
+
+}
+.backhome{
+  margin-left: 50%;
+}
+.icon{
+  
+  width: 40px;
+}
+.endroad{
+  font-size: 140%;
 }
