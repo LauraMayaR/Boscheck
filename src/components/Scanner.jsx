@@ -5,7 +5,7 @@ import Qr from './Qr';
 
 export default function Scanner() {
 	return (
-		<div>
+		<div className="camera">
 			<Qr/>
 		</div>
   	);
