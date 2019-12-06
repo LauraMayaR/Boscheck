@@ -41,9 +41,12 @@ header {
   display: flex;
   justify-content: center;
   width: 100vw;
-
-
 }
+
+header img{
+  width: 100vw;
+}
+
 
 .botonInicio{
   border:1px, rgba(3, 70, 255, 0.555);
@@ -53,7 +56,7 @@ header {
   font-size: 30px;
   font-family: 'Alatsi', sans-serif;
   text-align: center;
-  margin-left: 25%;
+  margin-left: 1%;
   width: 200px;
 }
 
@@ -82,14 +85,32 @@ header {
   top:80%;
   margin-right:10%;
   
+  }
 
-
-}
-.backhome{
-  margin-right: 20%;
+.inicioBoton{
+  top: 20%;
+  left: 5%;
+  padding: 1%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
   background: transparent;
-  border: transparent;
+}
+.finBoton{
+  top: 5%;
+  left: 10%;
+  padding: 1%;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  background: transparent;
+  margin: 5%;
+  margin-left: 20%;
+}
+
+.backhome{
   float:left;
+  height: 30%;
 }
 .endroad{
   margin-left: 20%;
@@ -106,15 +127,19 @@ header {
 
 button.newStation {
   position: absolute;
-    top: 76%;
-    left: -15%;
+    top: 73%;
+    left: -7%;
     padding: 2%;
     cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
 
 }
-
+h2{
+text-align: center;
+font-size: 40px;
+color: teal;
+}
 button.newStation:hover {
   background-color: yellowgreen;
 }
@@ -137,9 +162,7 @@ button.newStation:hover {
   margin-left: 900px;
 }
 
-.botonInicio{
-  margin-left: 50px;
-}
+
 
 
 .QrReader{
@@ -166,4 +189,12 @@ button.newStation:hover {
  margin-bottom: 20%;
 }
 
+.boton{
+  width: 30%;
+  height: 20%;
+}
 
+.buttonBus {
+  display: flex;
+  flex-direction: row;
+}

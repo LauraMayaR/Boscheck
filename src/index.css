@@ -14,3 +14,9 @@ code {
 .arcoiris{
   top: 0;
 }
+h1{
+  font-size: 150px;
+  margin: 0;
+  color: red;
+  text-shadow: 2px 2px 3px rgb(100, 97, 97);
+}

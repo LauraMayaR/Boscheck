@@ -11,8 +11,8 @@ import {
 export default function Verified () {
 	return (
 		<div className="welcome">
-            <img className="checkedGif" src={img}/>
-			<h1>BIENVENIDO</h1>
+			<img src="https://thumbs.gfycat.com/QuaintLikelyFlyingfish-size_restricted.gif" className="check"/>
+			<h2>BIENVENIDO</h2>
             <div className="backHome">
 				<Link to="BusStop">Regresar</Link>
 				</div>

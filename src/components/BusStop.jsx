@@ -23,12 +23,12 @@ class BusStop extends Component{
         </Link>
     	
 
-				<div>
+				<div className="buttonsBus">
           <Link to="/inicio">
-            <button className="backhome"><img src="https://i.ibb.co/tHRS5gn/home.png" alt="" className="icon" /></button>
+            <button className="inicioBoton">HOME</button>
           </Link>
           <Link to="/inicio">
-            <button className="endroad">END ROAD</button>
+            <button className="finBoton">END ROAD</button>
           </Link>
         </div>
 				<Maps
