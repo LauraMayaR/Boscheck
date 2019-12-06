@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 import '../App.css';
 import { Link,Redirect,Switch } from 'react-router-dom';
+import Maps from './Maps';
+import credentials from './Credentials';
 
+const mapURL=`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`
 class BusStop extends Component{
 
   render(){
@@ -20,6 +23,12 @@ class BusStop extends Component{
             <button className="endroad">End road</button>
           </Link>
         </div>
+				<Maps
+                googleMapURL= {mapURL}
+                containerElement= {<div style={{height:'0px'}}/>}
+                mapElement= {<div style={{height:'70%'}} />}
+                loadingElement= {<p>Cargando</p>}
+                />
 			</div>
 
         );
