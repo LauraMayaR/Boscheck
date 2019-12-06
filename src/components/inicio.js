@@ -25,7 +25,7 @@ function Sound1() {
       </audio>
       <div>
       <Link to="/BusStop">
-      <img src="https://cdn.dribbble.com/users/174627/screenshots/4891881/dribbble_jumpingpin.gif" className="boschLogo" alt=""></img>
+      <img src="https://cdn.dribbble.com/users/174627/screenshots/4891881/dribbble_jumpingpin.gif" className="ubicacion" alt=""></img>
         <button onClick={play} className="botonInicio">INICIAR</button>
         </Link>
       </div >

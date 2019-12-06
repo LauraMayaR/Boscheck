@@ -14,7 +14,7 @@ export default function Verified () {
             <img className="checkedGif" src={img}/>
 			<h1>BIENVENIDO</h1>
             <div className="backHome">
-				<Link to="/">INICIO</Link>
+				<Link to="BusStop">Regresar</Link>
 				</div>
 		</div>
   	);
