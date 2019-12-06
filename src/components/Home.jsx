@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import {inicio} from './inicio';
 
 class Home extends Component{
   render(){
@@ -12,9 +13,8 @@ class Home extends Component{
 				<img src="https://i.ibb.co/mDdR849/Whats-App-Image-2019-12-05-at-4-41-32-PM.jpg" className="boschLogo" alt=""></img>
         <div className="">
 					<div>
-            
 						<Link to="/BusStop">
-						<button className="botonInicio">START</button>
+						<button className="botonInicio" onClick="inicio">START</button>
 						</Link>
           </div>
         </div>
