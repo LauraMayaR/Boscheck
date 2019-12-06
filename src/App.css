@@ -16,36 +16,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.bosch {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  background-size: cover;
-  border-radius: 10px;
-  position: relative;
-}
-
-
-.boschLogo{
-  /*width: 50%;
-  align-content: center;
-  margin-left: 25%;*/
-  display: flex;
-  justify-content: center;
-}
 
 .Rainbow{
-  /*display: flex;
-  height: 100px;
-  border-radius: 10px;
-  /*margin-left: 15%;*/
+  background: none;
+  text-align: center;
 }
 
 header {
   display: flex;
   justify-content: center;
+
 
 }
 
@@ -71,8 +51,7 @@ header {
 }
 
 .gif{
-  width: 70%;
-  
+  width: 100%;
 }
 .mainPage{
   position: absolute;
@@ -80,9 +59,10 @@ header {
   right: 0;
   background-size: cover;
 }
+
 .backhome, .endroad{
   margin: 20px;
-  border-radius: 10px; 
+  border-radius: 10px;
 
 }
 .backhome{
@@ -93,11 +73,10 @@ header {
 }
 .endroad{
   margin-left: 20%;
- background: transparent;
+  background: transparent;
   border: transparent;
 }
 .icon{
-  
   width: 20%;
 }
 .endroad{
@@ -108,5 +87,24 @@ header {
   display: flex;
   justify-content: center;
   margin-left: 48%;
-  
 }
+
+.appName {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  color: rgb(11, 2, 63);
+ text-align: center;
+}
+.ubicacion{
+  text-align: center;
+  margin-left: 900px;
+}
+
+.botonInicio{
+  margin-left: 1000px;
+}
+/*.logoBosch {
+  justify-content: flex-start;
+  width: 30%;
+  float: right;
+}*/

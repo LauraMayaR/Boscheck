@@ -16,10 +16,10 @@ class BusStop extends Component{
         </Link>
 
 				<div>
-          <Link to="/Home">
+          <Link to="/inicio">
             <button className="backhome"><img src="https://i.ibb.co/tHRS5gn/home.png" alt="" className="icon" /></button>
           </Link>
-          <Link to="/Home">
+          <Link to="/inicio">
             <button className="endroad">End road</button>
           </Link>
         </div>
