@@ -50,7 +50,7 @@ class Qr extends Component {
 					{this.state.message}
 				</p>
 
-				{this.state.result ? <Redirect to="/success"/>:""}
+				{this.state.result ? <Redirect to="/Verified"/>:""}
       </div>
     )
   }
