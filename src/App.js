@@ -10,8 +10,6 @@ import Scanner from './components/Scanner';
 import Verified from './components/Verified';
 
 
-
-
 export default function App() {
   return (
 
