@@ -51,7 +51,7 @@ header {
 }
 
 .botonInicio{
-  border:1px, #fff;
+  border:1px, rgb(10, 7, 7);
   background: #ffffff;;
   border-radius: 8px;
   padding: 5px;
@@ -60,7 +60,11 @@ header {
   font-family: 'Alatsi', sans-serif;
   text-align: center;
   margin-left: 15%;
+<<<<<<< HEAD
   width: 150px;
+=======
+
+>>>>>>> e3d83a73c3361e6d6654d658cc55dedbdf2b5bcb
 }
 
 
@@ -69,7 +73,6 @@ header {
   position: absolute;
   left: 0;
   right: 0;
- 
 }
 
 .gif{
