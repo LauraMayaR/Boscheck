@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Boscheck/static/css/main.33cec924.chunk.css",
+    "main.js": "/Boscheck/static/js/main.e14dc385.chunk.js",
+    "main.js.map": "/Boscheck/static/js/main.e14dc385.chunk.js.map",
+    "runtime-main.js": "/Boscheck/static/js/runtime-main.c43846ff.js",
+    "runtime-main.js.map": "/Boscheck/static/js/runtime-main.c43846ff.js.map",
+    "static/js/2.36ab8dbb.chunk.js": "/Boscheck/static/js/2.36ab8dbb.chunk.js",
+    "static/js/2.36ab8dbb.chunk.js.map": "/Boscheck/static/js/2.36ab8dbb.chunk.js.map",
+    "index.html": "/Boscheck/index.html",
+    "precache-manifest.d14e80bb5114cd573cbbe65568213423.js": "/Boscheck/precache-manifest.d14e80bb5114cd573cbbe65568213423.js",
+    "service-worker.js": "/Boscheck/service-worker.js",
+    "static/css/main.33cec924.chunk.css.map": "/Boscheck/static/css/main.33cec924.chunk.css.map",
+    "static/js/2.36ab8dbb.chunk.js.LICENSE": "/Boscheck/static/js/2.36ab8dbb.chunk.js.LICENSE",
+    "static/media/bienvenido.ogg": "/Boscheck/static/media/bienvenido.ee83d0cb.ogg",
+    "static/media/checked.gif": "/Boscheck/static/media/checked.436ad3bb.gif",
+    "static/media/inicio recorrido.ogg": "/Boscheck/static/media/inicio recorrido.1a70064c.ogg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c43846ff.js",
+    "static/js/2.36ab8dbb.chunk.js",
+    "static/css/main.33cec924.chunk.css",
+    "static/js/main.e14dc385.chunk.js"
+  ]
+}
