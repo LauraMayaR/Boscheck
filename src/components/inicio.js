@@ -15,6 +15,7 @@ function Sound1() {
       <div className="bosch">
       <header>
         <img src="https://i.ibb.co/drgdHtH/Ribbet-Edit.png" className="Rainbow"></img>
+        <p>Hola</p>
       </header>
       <img src="https://i.ibb.co/mDdR849/Whats-App-Image-2019-12-05-at-4-41-32-PM.jpg" className="boschLogo" alt=""></img>
       <div className="">
