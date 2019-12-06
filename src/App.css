@@ -1,6 +1,5 @@
 body {
-  background: rgb(6,74,108);
-  background: linear-gradient(180deg, rgba(6,74,108,1) 0%, rgba(247,249,251,1) 49%);
+  background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,15 +34,15 @@ header {
 }
 
 .botonInicio{
-  border:1px, rgb(10, 7, 7);
+  border:1px, rgba(3, 70, 255, 0.555);
   background: #ffffff;;
   border-radius: 8px;
   padding: 5px;
   font-size: 30px;
   font-family: 'Alatsi', sans-serif;
   text-align: center;
-  margin-left: 15%;
-  width: 150px;
+  margin-left: 25%;
+  width: 200px;
 }
 
 
@@ -71,13 +70,18 @@ header {
 }
 .backhome{
   margin-right: 20%;
+  background: transparent;
+  border: transparent;
+  float:left;
 }
 .endroad{
   margin-left: 20%;
+ background: transparent;
+  border: transparent;
 }
 .icon{
   
-  width: 40px;
+  width: 20%;
 }
 .endroad{
   font-size: 140%;
@@ -87,6 +91,7 @@ header {
   display: flex;
   justify-content: center;
   margin-left: 48%;
+
 }
 .QrReader{
   width: 40%;

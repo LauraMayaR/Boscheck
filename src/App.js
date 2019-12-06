@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Route} from 'react-router-dom';
-import Home from './components/Home';
+import inicio from './components/inicio';
 import BusStop from './components/BusStop';
 import Time from './components/Time';
 import Sound from './components/Audio';
@@ -18,13 +18,15 @@ export default function App() {
     <div>
         <HashRouter>
           <React.Fragment>
-            <Route path="/" component={Home}/>
+
+            <Route path="/" component={inicio}/>
             <Route path="/BusStop" component={BusStop}/>
             <Route path="/Scanner" component={Scanner}/>
             <Route path="/Verified" component={Verified}/>
             <Route path="/Audio" component={Sound}/>
             <Route path="/inicio" component={Sound1}/>
             <Route path="/Time" component={Time}/>
+
           </React.Fragment>
         </HashRouter>
     </div>
