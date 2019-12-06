@@ -12,7 +12,7 @@ import {
 class Qr extends Component {
   state = {
 		result:false,
-		message:"ESCANEA TU CÓDIGO"
+		message:"Scan your code"
   }
 
   handleScan = data => {
@@ -43,7 +43,7 @@ class Qr extends Component {
           delay={300}
           onError={this.handleError}
           onScan={this.handleScan}
-          style={{ width: '400px' }}
+          
           className="QrReader"
         />
 				<p>

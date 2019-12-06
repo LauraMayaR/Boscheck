@@ -18,13 +18,15 @@ export default function App() {
     <div>
         <HashRouter>
           <React.Fragment>
-            <Route path="/" component={inicio}/>
-            <Route path="/BusStop" component={BusStop}/>
-            <Route path="/Scanner" component={Scanner}/>
-            <Route path="/Verified" component={Verified}/>
-            <Route path="/Audio" component={Sound}/>
-            <Route path="/inicio" component={Sound1}/>
-            <Route path="/Time" component={Time}/>
+
+            <Route exact path="/" component={inicio}/>
+            <Route exact path="/BusStop" component={BusStop}/>
+            <Route exact path="/Scanner" component={Scanner}/>
+            <Route exact path="/Verified" component={Verified}/>
+            <Route exact path="/Audio" component={Sound}/>
+            <Route exact path="/inicio" component={Sound1}/>
+            <Route exact path="/Time" component={Time}/>
+
           </React.Fragment>
         </HashRouter>
     </div>

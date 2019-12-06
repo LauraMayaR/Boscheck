@@ -13,10 +13,12 @@ function Sound1() {
 
     return (
       <div className="bosch">
-      <header>
-        <img src="https://i.ibb.co/drgdHtH/Ribbet-Edit.png" className="Rainbow"></img>
-      </header>
-      <img src="https://i.ibb.co/mDdR849/Whats-App-Image-2019-12-05-at-4-41-32-PM.jpg" className="boschLogo" alt=""></img>
+          <img src="https://i.ibb.co/z4KSB7N/dhhd.png" className="Rainbow"></img>
+        
+      <div className="appName">
+      <h1>BOSCHECK</h1>
+      </div>
+      
       <div className="">
       <audio id="myAudio">
         <source src={audio} type="audio/ogg"/>
@@ -24,7 +26,7 @@ function Sound1() {
       </audio>
       <div>
       <Link to="/BusStop">
-      <img src="https://cdn.dribbble.com/users/174627/screenshots/4891881/dribbble_jumpingpin.gif" className="boschLogo" alt=""></img>
+      <img src="https://cdn.dribbble.com/users/174627/screenshots/4891881/dribbble_jumpingpin.gif" className="ubicacion" alt=""></img>
         <button onClick={play} className="botonInicio">INICIAR</button>
         </Link>
       </div >
