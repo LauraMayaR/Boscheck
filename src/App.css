@@ -27,6 +27,7 @@ body {
   text-align: center;
   margin-left: 15%;
 
+}
 
 
 .bus{
@@ -34,7 +35,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
- 
 }
 
 .gif{
